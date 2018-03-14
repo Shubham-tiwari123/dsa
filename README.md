@@ -1,5 +1,6 @@
 
 Array Questions:-
+
 1)
 Given an unsorted array of both negative and positive integer. The task is place all negative element at the end of array without changing the order of positive element and negative element. 
 
@@ -8,5 +9,6 @@ You are given an array of 0s and 1s in random order. Segregate 0s on left side a
 
 
 Tree Questions:-
+
 1)
 Write Code to Determine if Two Trees are Identical
