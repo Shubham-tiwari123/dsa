@@ -12,7 +12,7 @@ void Array::create(){
     }
 }
 
-void Array::dispay(){
+void Array::display(){
     cout<<"\nDisplaying elements:-";
     for(int i=0;i<num;i++){
         cout<<a[i]<<"\t";
