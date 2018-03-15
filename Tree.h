@@ -1,15 +1,23 @@
-#ifndef TREE_H
-#define TREE_H
+#ifndef TREE_H_INCLUDED
+#define TREE_H_INCLUDED
 
-struct node{
+#include<queue>
+#include<stack>
+using namespace std;
+
+struct node
+{
     int data;
-    node *left;
-    node *right;
+    struct node* left;
+    struct node* right;
 };
-int flag =0;
-struct node *newnode(int data);
-void postorder(struct node* temp);
-void postorder1(struct node* temp1);
-void identicalTrees();
-#endif /* TREE_H */
 
+struct node* newNode(int data);
+
+void levelOrder(node *root);
+
+void levelOrder2(node *root2);
+
+int compare();
+
+#endif // TREE_H_INCLUDED
