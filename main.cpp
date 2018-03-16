@@ -4,16 +4,16 @@
 using namespace std;
 int main() {
     /*function to put all negative on left*/
-   /* Array obj,obj1;
+    Array obj,obj1;
     obj.create();
     obj.display();
     obj.negativeLeftSide();
     obj.display();
-    /*function to bring all Zero on left and ones on right
+    /*function to bring all Zero on left and ones on right*/
     obj1.create();
     obj1.display();
     obj1.seperateZeroOne();
-    obj1.display();*/
+    obj1.display();
 
     /*function to call tree*/
     node *root1 = newNode(1);
